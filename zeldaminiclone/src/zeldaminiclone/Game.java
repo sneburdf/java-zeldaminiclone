@@ -1,6 +1,7 @@
 package zeldaminiclone;
 
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.JFrame;
@@ -26,7 +27,7 @@ public class Game extends Canvas implements Runnable {
 		
 		frame.pack();
 		frame.setLocationRelativeTo(null);
-		
+		frame.setBackground(Color.BLACK);;
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
